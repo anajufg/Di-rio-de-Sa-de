@@ -1,0 +1,97 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="DiariodeSaude.Views.RegistroDiarioView">
+  
+  <StackPanel Margin="20" Spacing="18">
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+      <Button Content="←" Width="30" Height="30"
+              Background="Transparent" BorderBrush="Transparent"
+              FontSize="18"/>
+      <TextBlock Text="Novo Registro" FontSize="18" FontWeight="Bold" Margin="10,0,0,0" VerticalAlignment="Center"/>
+    </StackPanel>
+
+    <TextBlock Text="Como está seu humor hoje?" FontWeight="Bold" FontSize="14"/>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+      
+      <RadioButton x:Name="HumorFeliz" GroupName="humor" Margin="0,0,10,0">
+      <StackPanel HorizontalAlignment="Center">
+        <TextBlock Text="😄" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="Ótimo" FontSize="10" HorizontalAlignment="Center"/>
+      </StackPanel>
+    </RadioButton>
+
+    <RadioButton x:Name="HumorBom" GroupName="humor" Margin="0,0,10,0">
+      <StackPanel HorizontalAlignment="Center">
+        <TextBlock Text="🙂" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="Bom" FontSize="10" HorizontalAlignment="Center"/>
+      </StackPanel>
+    </RadioButton>
+
+    <RadioButton x:Name="HumorRegular" GroupName="humor" Margin="0,0,10,0">
+      <StackPanel HorizontalAlignment="Center">
+        <TextBlock Text="😐" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="Regular" FontSize="10" HorizontalAlignment="Center"/>
+      </StackPanel>
+    </RadioButton>
+
+    <RadioButton x:Name="HumorRuim" GroupName="humor" Margin="0,0,10,0">
+      <StackPanel HorizontalAlignment="Center">
+        <TextBlock Text="🙁" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="Ruim" FontSize="10" HorizontalAlignment="Center"/>
+      </StackPanel>
+    </RadioButton>
+
+    <RadioButton x:Name="HumorPessimo" GroupName="humor" Margin="0,0,10,0">
+      <StackPanel HorizontalAlignment="Center">
+        <TextBlock Text="😞" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="Péssimo" FontSize="10" HorizontalAlignment="Center"/>
+      </StackPanel>
+    </RadioButton>
+
+    </StackPanel>
+
+    <TextBlock Text="Qualidade do Sono (0-10)" FontWeight="Bold" FontSize="14"/>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Spacing="6">
+      <TextBox x:Name="sonoInput" Width="60" Watermark="0" Background="#F8F8F8" BorderBrush="#E0E0E0" CornerRadius="8"/>
+    </StackPanel>
+
+    <TextBlock Text="Alimentação" FontWeight="Bold" FontSize="14"/>
+    <TextBox x:Name="alimentacaoInput"
+             Watermark="Como foi sua alimentação hoje?"
+             Height="80"
+             Background="#F8F8F8"
+             BorderBrush="#E0E0E0"
+             CornerRadius="8"/>
+
+    <TextBlock Text="Atividade Física" FontWeight="Bold" FontSize="14"/>
+    <TextBox x:Name="atvFisicaInput"
+             Watermark="Tipo de atividade física"
+             Height="40"
+             Background="#F8F8F8"
+             BorderBrush="#E0E0E0"
+             CornerRadius="8"/>
+    <StackPanel Orientation="Horizontal" Spacing="8">
+      <TextBox x:Name="duracaoInput" Width="60" Watermark="0" Background="#F8F8F8" BorderBrush="#E0E0E0" CornerRadius="8"/>
+      <TextBlock Text="minutos de exercício" VerticalAlignment="Center" FontSize="12"/>
+    </StackPanel>
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="12" Margin="0,20,0,0">
+      <Button Content="Salvar"
+              Background="#28A745" Foreground="White"
+              Width="60" Height="30" CornerRadius="8" Click="SalvarRegistroDiario"/>
+      <Button Content="Cancelar"
+              Background="White" BorderBrush="#CCC" BorderThickness="1"
+              Width="80" Height="30" CornerRadius="8"/>
+    </StackPanel>
+
+    <TextBlock x:Name="mensagemStatus"
+           Text=""
+           FontSize="14"
+           Foreground="Green"
+           HorizontalAlignment="Center"
+           IsVisible="false"
+           FontWeight="Bold"
+           Margin="0,10,0,0"/>
+
+  </StackPanel>
+</UserControl>

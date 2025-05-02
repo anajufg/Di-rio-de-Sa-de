@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ideis\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.13.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\ideis\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\CopyMe.SQLite.tt.txt" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\CopyMe.SQLite.tt.txt')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\CopyMe.SQLite.tt.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\DataAnnotations.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\DataModel.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\EditableObject.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\Equatable.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\Equatable.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Equatable.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Humanizer.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SQLite.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.SQLite.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.SQLite.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.Tools.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\LinqToDB.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\MultipleFiles.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\NotifyDataErrorInfo.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\NotifyPropertyChanged.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\ObsoleteAttributes.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\PluralizationService.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\T4Model.ttinclude</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude')">
+      <NuGetPackageId>linq2db.SQLite</NuGetPackageId>
+      <NuGetPackageVersion>5.4.1</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>LinqToDB.Templates\Validation.ttinclude</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.8\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.8\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)avalonia\11.2.1\buildTransitive\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\11.2.1\buildTransitive\Avalonia.props')" />
+    <Import Project="$(NuGetPackageRoot)linq2db.sqlite\5.4.1\build\linq2db.SQLite.props" Condition="Exists('$(NuGetPackageRoot)linq2db.sqlite\5.4.1\build\linq2db.SQLite.props')" />
+    <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\7.3.0.3-preview.2.2\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\7.3.0.3-preview.2.2\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">C:\Users\ideis\.nuget\packages\avalonia.buildservices\0.0.29</PkgAvalonia_BuildServices>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\ideis\.nuget\packages\avalonia\11.2.1</PkgAvalonia>
+    <Pkglinq2db_SQLite Condition=" '$(Pkglinq2db_SQLite)' == '' ">C:\Users\ideis\.nuget\packages\linq2db.sqlite\5.4.1</Pkglinq2db_SQLite>
+  </PropertyGroup>
+</Project>
